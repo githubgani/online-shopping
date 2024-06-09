@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Online Mobile Shopping</title>
+</head>
+<body>
+    <h1>Online Mobile Shopping</h1>
+    <div class="input-section">
+        <label for="phone-name">Phone Name:</label>
+        <input type="text" id="phone-name">
+        
+        <label for="phone-price">Price:</label>
+        <input type="number" id="phone-price">
+        
+        <button id="add-phone-btn">Add Phone</button>
+    </div>
+    
+    <div class="shopping-section">
+        <h2>Available Phones</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Phone Name</th>
+                    <th>Price</th>
+                    <th>Buy</th>
+                </tr>
+            </thead>
+            <tbody id="shopping-table-body">
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
